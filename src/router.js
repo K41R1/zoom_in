@@ -1,11 +1,17 @@
 import VueRouter from 'vue-router'
 import HeatMap from './components/dashboard/HeatMap'
+import Reclamation from './components/dashboard/Reclamation';
 
 const routes = [
   {
     path: '/map',
     name: 'map',
     component: HeatMap
+  },
+  {
+    path: '/reclamation',
+    name:'reclamation',
+    component: Reclamation
   }
 ];
 

@@ -22,14 +22,18 @@ export default {
     return {
       isActive: false,
       items: [
-        {
-          name: 'Home',
-          path: 'home'
-        },
-        {
-          name: 'Map',
-          path: 'map'
-        }
+          {
+              name: 'Home',
+              path: 'home'
+          },
+          {
+              name: 'Map',
+              path: 'map'
+          },
+          {
+              name: 'Reclamation',
+              path: 'reclamation'
+          }
       ]
     }
   },
