@@ -10,7 +10,7 @@
         </router-link>
       </div>
     </div>
-    <!-- /#sidebar-wrapper -->
+    <!-- ./sidebar -->
 </template>
 
 
@@ -24,11 +24,7 @@ export default {
       items: [
           {
               name: 'Home',
-              path: 'home'
-          },
-          {
-              name: 'Map',
-              path: 'map'
+              path: '/'
           },
           {
               name: 'Reclamation',

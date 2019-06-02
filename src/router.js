@@ -4,8 +4,8 @@ import Reclamation from './components/dashboard/Reclamation';
 
 const routes = [
   {
-    path: '/map',
-    name: 'map',
+    path: '/',
+    name: 'home',
     component: HeatMap
   },
   {
